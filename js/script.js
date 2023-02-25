@@ -6,7 +6,7 @@ const loadData  = () => {
 const displayData = (data) => {
     const container = document.getElementById('container')
     container.innerHTML = `
-    <div class="lg:w-96 bg-slate-700  px-10 py-16 text-center mx-auto mt-10 rounded-lg">
+    <div class="lg:w-96 bg-slate-700  px-10 lg:py-16 text-center mx-auto lg:mt-10 rounded-lg">
     <h1 class="text-teal-300 font-semibold text-lg py-2"> Advice No : ${data.slip.id} </h1>
     <h1 class="text-3xl font-semibold text-white mb-8">${data.slip.advice}</h1>
     <hr>
